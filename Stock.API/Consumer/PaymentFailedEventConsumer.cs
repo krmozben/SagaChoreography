@@ -29,7 +29,7 @@ namespace Stock.API.Consumer
                 }
             }
 
-            _logger.LogInformation($"Stock was released fron Order Id ({context.Message.OrderId})");
+            _logger.LogInformation($"Stock was released for Order Id ({context.Message.OrderId})");
         }
     }
 }
